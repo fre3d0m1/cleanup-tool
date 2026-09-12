@@ -9,3 +9,4 @@ def cli() -> None:
 
 cli.add_command(crud.analyze)
 cli.add_command(crud.stats)
+cli.add_command(crud.basic_organize)
