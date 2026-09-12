@@ -4,10 +4,7 @@
 
 pkgs.mkShell {
   buildInputs = [
-    (pkgs.python3.withPackages (
-      ps: with ps; [
-        tkinter
-      ]
-    ))
+    pkgs.python3
+    pkgs.uv
   ];
 }
